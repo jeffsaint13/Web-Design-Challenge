@@ -1,0 +1,113 @@
+    /* Applying absolute position*/
+    .navbar{
+        position: absolute;
+        right: 50px;
+    }
+
+  .navbar a{
+    background-color:white;
+  }
+
+    /* Applying color to the all headers*/
+  h1, h2, h3{
+    color: rgb(173, 27, 27);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+  }
+  
+
+  body {
+    background-color: rgb(178, 207, 235);
+  }
+  
+      /* Applying color to the text of each paragraph*/
+  p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    word-wrap: break-word;
+  }
+  
+
+/*   
+  .col {
+    width: 100%;
+
+  }  */
+  
+    /* Adding color to the top left ribbon*/
+  .leftblocknav{
+    background-color: white;
+    z-index:2;
+  }
+  
+  /* Adding color to the top left panel of the ribbon*/
+  .leftblocknav a{
+
+    background: darkblue;
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    width: 110px;
+  }
+  
+  .divtop{
+    background-color: white;
+    z-index:2;
+  }
+  
+  .box{
+    background-color: white;
+    z-index:1;
+  }
+  
+  .divtable{
+    background-color: white;
+    overflow:hidden;
+    text-align:center;
+    z-index:1;
+  }
+  
+  .divbtm {
+    bottom:0;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    width:100%;
+    z-index:0;
+  }
+
+  /*positioning image*/
+  img {
+    float: left;
+    max-width: 100%;
+  }
+
+/*Styling Table*/
+
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(173, 27, 27);
+    color: white;
+
+
+
+
+
+ 
